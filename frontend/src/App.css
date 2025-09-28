@@ -1,0 +1,82 @@
+/* frontend/src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.app-subtitle {
+  font-size: 1rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn.primary {
+  background: #2563eb;
+  color: white;
+}
+.btn.primary:hover {
+  background: #1d4ed8;
+}
+
+.btn.secondary {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+.btn.secondary:hover {
+  background: #e2e8f0;
+}
+
+.btn.small {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 0;
+}
+.link-btn:hover {
+  text-decoration: underline;
+}
+
+.user-info {
+  margin-bottom: 16px;
+}

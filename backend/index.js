@@ -37,5 +37,13 @@ app.get('/api/admin/test', authMiddleware, authorize('SYSTEM_ADMIN'), (req, res)
 const storeRoute = require('./routes/storeRoute');
 app.use('/api/stores', storeRoute);
 
+const ratingRoute = require('./routes/ratingRoute');
+app.use('/api/ratings', ratingRoute);
+
+
+const ownerRoute = require('./routes/ownerRoute');
+app.use('/api/owner', ownerRoute);
+
+
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
