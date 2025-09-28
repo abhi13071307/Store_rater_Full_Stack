@@ -7,3 +7,17 @@ Database: PostgreSQL (Supabase) with Prisma ORM
 Frontend: React.js (Vite)
 Auth: JWT (JSON Web Tokens)
 Other Tools: bcryptjs, dotenv, nodemon
+
+Demo Credentials (seed data)
+
+Admin:
+Email: admin@example.com
+Password: Admin@1234
+
+Store Owner:
+Email: owner@example.com
+Password: Owner@1234
+
+Normal User:
+Email: user@example.com
+Password: User@1234
